@@ -1,0 +1,13 @@
+# 公共配置文件
+
+
+spring:
+#  模板引擎设置
+  thymeleaf:
+    mode: HTML
+#  使用配置文件设置
+  profiles:
+    active: dev
+#   messages配置文件位置
+  messages:
+    basename: messages
